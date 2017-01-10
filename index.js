@@ -181,6 +181,6 @@ const db = dbeasy.client({
 });
 
 var migrationsDir = argv.dir || 'migrations';
-var migrationsTable = argv.table || 'migrations';
+var migrationsTable = argv.table || 'public.migrations';
 
 run(db, migrationsDir, migrationsTable);
