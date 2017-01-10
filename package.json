@@ -1,0 +1,28 @@
+{
+  "name": "migrate-easy",
+  "version": "0.0.1",
+  "description": "Simple SQL migrations",
+  "main": "index.js",
+  "bin": { "migrate": "./index.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronyo/migrate-easy.git"
+  },
+  "author": "Aaron Boyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronyo/migrate-easy/issues"
+  },
+  "homepage": "https://github.com/aaronyo/migrate-easy#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "colors": "^1.1.2",
+    "dbeasy": "^0.15.0",
+    "lodash": "^4.17.4",
+    "o3-sugar": "0.0.3",
+    "yargs": "^6.6.0"
+  }
+}
